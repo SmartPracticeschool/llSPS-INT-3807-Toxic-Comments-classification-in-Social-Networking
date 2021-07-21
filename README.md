@@ -1,11 +1,12 @@
 # llSPS-INT-3807-Toxic-Comments-classification-in-Social-Networking
-Toxic Comments classification in Social Networking
-'''
+# Toxic Comments classification in Social Networking
+---
 
-Overview:
+## Overview:
 	The threat of abuse and harassment online prevent many people from expressing themselves and make them give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments. Therefore, we have built a model using Convolutional Neural Network (CNN) and Natural Language Processing (NLP) that can predict the toxicity of these comments.
+---
 
-Dataset:
+## Dataset:
 	The dataset we are using consists of comments from Wikipedia’s talk page edits. These comments have been labeled by human raters for toxic behavior. The types of toxicity are:
 - toxic
 - severe_toxic
@@ -13,14 +14,16 @@ Dataset:
 - threat
 - insult
 - identity_hate
+---
 
-Software requirements:
+## Software requirements:
 - Text editor / IDE: Jupyter Notebook / Spyder
 - Language: Python, HTML, CSS
 - Distribution software: Anaconda
 - Framework: Flask
+---
 
-Libraries required:
+## Libraries required:
 - numpy
 - pandas
 - matplotlib.pyplot
@@ -33,8 +36,9 @@ Libraries required:
 - sklearn
 - joblib
 	These libraries can be installed using the package manager pip.
+---
 
-Steps involved in building the project:
+## Steps involved in building the project:
 - Install and import the required libraries.
 - Load the test and train datasets.
 - Preprocess the data.
@@ -44,8 +48,9 @@ Steps involved in building the project:
 - Build a CNN model to make the predictions.
 - Train and save the model.
 - Design a web application using Flask and integrate the saved model.
+---
 
-Running the project:
+## Running the project:
 - Install all the required libraries.
 - Unzip the dataset file in the project directory.
 - Open the TCC-CNN.ipynb file in your Jupyter Notebook and run all cells. The trained model will be saved in your directory.
@@ -53,8 +58,9 @@ Running the project:
   	python app.py
 - Copy paste the URL in the browser to open the web application.
 - Enter the comment and click on Predict to get the output.
+---
 
-Project Associates:
+## Project Associates:
 - Sonika Prakash
 - Poornima G B
 - Spoorthi R S
