@@ -3,11 +3,11 @@
 ---
 
 ## Overview:
-	The threat of abuse and harassment online prevent many people from expressing themselves and make them give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments. Therefore, we have built a model using Convolutional Neural Network (CNN) and Natural Language Processing (NLP) that can predict the toxicity of these comments.
+The threat of abuse and harassment online prevent many people from expressing themselves and make them give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments. Therefore, we have built a model using Convolutional Neural Network (CNN) and Natural Language Processing (NLP) that can predict the toxicity of these comments.
 ---
 
 ## Dataset:
-	The dataset we are using consists of comments from Wikipedia’s talk page edits. These comments have been labeled by human raters for toxic behavior. The types of toxicity are:
+The dataset we are using consists of comments from Wikipedia’s talk page edits. These comments have been labeled by human raters for toxic behavior. The types of toxicity are:
 - toxic
 - severe_toxic
 - obscene
