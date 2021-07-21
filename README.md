@@ -4,6 +4,7 @@
 
 ## Overview:
 The threat of abuse and harassment online prevent many people from expressing themselves and make them give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments. Therefore, we have built a model using Convolutional Neural Network (CNN) and Natural Language Processing (NLP) that can predict the toxicity of these comments.
+
 ---
 
 ## Dataset:
